@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, sans-serif;
+    background:#f4f6f9;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#002b5b;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(#003366,#00509e);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:2.2rem;
+    margin-bottom:15px;
+}
+
+section{
+    padding:60px 0;
+}
+
+section h2{
+    margin-bottom:25px;
+    color:#002b5b;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:250px;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.stat-box{
+    flex:1;
+    min-width:220px;
+    background:#003366;
+    color:white;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.stat-box h3{
+    font-size:2rem;
+}
+
+.checklist label{
+    display:block;
+    margin:15px 0;
+    font-size:1.1rem;
+}
+
+.quiz-box{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+button{
+    padding:12px 20px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    background:#003366;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00509e;
+}
+
+#resultado{
+    margin-top:20px;
+    font-weight:bold;
+    font-size:1.1rem;
+}
+
+footer{
+    background:#002b5b;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    .cards,
+    .stats{
+        flex-direction:column;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}

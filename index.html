@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Segurança Digital</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Portal de Segurança Digital</h1>
+            <p>Base Aérea de Manaus </p>
+
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#golpes">Golpes</a>
+                <a href="#estatisticas">Estatísticas</a>
+                <a href="#checklist">Checklist</a>
+                <a href="#quiz">Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+
+        <h2>Proteja seus dados e sua identidade digital</h2>
+
+        <p>
+            Aprenda a identificar ameaças e utilizar a internet de forma segura.
+        </p>
+
+    </section>
+
+    <section id="sobre" class="container">
+
+        <h2>Sobre o Projeto</h2>
+
+        <p>
+            Este portal foi desenvolvido como atividade extensionista do curso de
+            Análise e Desenvolvimento de Sistemas, visando promover a inclusão digital
+            e conscientizar militares e colaboradores da Base Aérea de Manaus sobre
+            boas práticas de segurança digital.
+        </p>
+
+    </section>
+
+    <section id="golpes" class="container">
+
+        <h2>Principais Golpes Digitais</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Phishing</h3>
+                <p>Mensagens falsas que tentam roubar senhas e dados pessoais.</p>
+            </div>
+
+            <div class="card">
+                <h3>WhatsApp Clonado</h3>
+                <p>Criminosos assumem contas e solicitam dinheiro aos contatos.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sites Falsos</h3>
+                <p>Páginas que imitam bancos e empresas para capturar informações.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="estatisticas">
+
+        <div class="container">
+
+            <h2>Indicadores de Segurança</h2>
+
+            <div class="stats">
+
+                <div class="stat-box">
+                    <h3>85%</h3>
+                    <p>dos ataques começam por engenharia social.</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3>2FA</h3>
+                    <p>reduz significativamente invasões de contas.</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3>100%</h3>
+                    <p>dos usuários devem manter sistemas atualizados.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="checklist" class="container">
+
+        <h2>Checklist de Segurança</h2>
+
+        <div class="checklist">
+
+            <label><input type="checkbox"> Utilizo senhas fortes.</label>
+
+            <label><input type="checkbox"> Tenho autenticação em dois fatores.</label>
+
+            <label><input type="checkbox"> Atualizo meus aplicativos regularmente.</label>
+
+            <label><input type="checkbox"> Não clico em links suspeitos.</label>
+
+            <label><input type="checkbox"> Utilizo antivírus atualizado.</label>
+
+        </div>
+
+    </section>
+
+    <section id="quiz" class="container">
+
+        <h2>Quiz de Segurança Digital</h2>
+
+        <div class="quiz-box">
+
+            <p>
+                Qual das opções abaixo representa uma boa prática de segurança?
+            </p>
+
+            <button onclick="correta()">
+                Ativar autenticação em dois fatores
+            </button>
+
+            <button onclick="errada()">
+                Usar a mesma senha em todos os sites
+            </button>
+
+            <p id="resultado"></p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+            Projeto Extensionista - ADS | Base Aérea de Manaus
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
